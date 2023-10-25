@@ -310,7 +310,7 @@ JavascriptExecutor js = (JavascriptExecutor) driver;
 	  select4.selectByIndex(2);
 	
 List<WebElement>allmodes =select4.getOptions();
-System.out.println("list of all payment methods");
+System.out.println("list of all  from payment methods");
 for(WebElement modes: allmodes)
 {
 String allpayment=	modes.getText();
