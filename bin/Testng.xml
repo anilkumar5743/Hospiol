@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+    <test name="MyTest">
+        <classes>
+            <class name="CommonMethods.SeleniumTestExample" />
+            <class name="CommonMethods.SeleniumTestWithAnnotations" />
+           
+            <!-- Add more class elements for additional test classes -->
+        </classes>
+    </test>
+</suite>
